@@ -40,19 +40,86 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.que-somos {
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logos-sociales {
+    display: flex;
+}
+
+.logo-somos, .logos-sociales img {
+    width: 50px;
+    height: 50px;
+}
+
+.logos-sociales img {
+    margin-left: 15px;
+}
+
+.logo-somos img{
+    width: 100%;
+    height: auto;
+}
+
+.texto-somos {
+    max-width: 800px;
+    text-align: left;
+}
+
+.texto-somos .titulo {
+    color: #E44D26;
+    font-size: 1.5em;
 }
 
 .nosotras {
     display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .persona {
     display: flex;
+    align-items: center;
 }
 
+.persona .descripcion-persona {
+    margin-left: 10px;
+    text-align: center;
+    color: #E44D26;
+}
 
+.persona .avatar {
+    width: 100px;
+    height: 100px;
+}
 
+.persona .avatar img {
+    width: 100%;
+    height: auto;
+}
 
+.persona .nombre-persona {
+    font-weight: bold;
+}
 
+.contacto {
+    display: flex;
+    align-items: center;
+}
 
-
+.redes img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
