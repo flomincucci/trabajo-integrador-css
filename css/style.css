@@ -18,7 +18,10 @@ html, body {
 }
 
 .header .logo img,
-.imagen-principal img {
+.imagen-principal img,
+.logo-somos img,
+.logo-chico img,
+.avatar img {
     width: 100%;
     height: auto;
 }
@@ -42,16 +45,69 @@ html, body {
     margin-top: 30px;
 }
 
+.que-somos {
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-somos {
+    max-width: 800px;
+}
+
+.logo-somos {
+    width: 65px;
+    height: 65px;
+}
+
+.logo-chico {
+    width: 25px;
+    height: 25px;
+}
+
+.logos-sociales {
+    display: flex;
+}
+
 .nosotras {
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .persona {
     display: flex;
+    align-items: center;
 }
 
+.avatar {
+    width: 150px;
+    height: 150px;
+}
 
+.footer .redes {
+    display: flex;
+    margin-right: 10px;
+}
 
+.footer .redes .logo-chico{
+    margin-left: 10px;
+}
+
+@media only screen  and (max-width: 480px) {
+    .imagen-principal {
+        width: 100%;
+    }
+
+    .logo-somos, .logos-sociales {
+        display: none;
+    }
+
+    .texto-somos{
+        padding: 10px;
+    }
+}
 
 
 
